@@ -3,7 +3,6 @@
 var config = require('config');
 
 var app = require('./app');
-//var debug = require('debug')('express-adminlte-d3-test2:server');
 var http = require('http');
 
 var port = config.get('site.port');
@@ -14,6 +13,15 @@ var server = http.createServer(app);
 
 server.listen(port,()=>console.log('running @'+port));
 
+
+
+
+
+
+
+
+
+//var debug = require('debug')('express-adminlte-d3-test2:server');
 /*
 server.on('error', onError);
 server.on('listening', onListening);

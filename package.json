@@ -3,7 +3,9 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "nodemon ."
+    "start": "nodemon .",
+    "push": "git add . && git commit -m'mod' &&  git push origin master"
+
   },
   "dependencies": {
     "body-parser": "~1.18.2",
